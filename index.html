@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE SHOW</title>
+  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo" class="w-6 h-6">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- 🔹 Navbar -->
+  <nav class="bg-blue-600 text-white p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">MySite</h1>
+
+    <ul class="flex gap-6">
+      <li><a href="#" class="hover:text-gray-200">Home</a></li>
+      <li><a href="#" class="hover:text-gray-200">About</a></li>
+      <li><a href="#" class="hover:text-gray-200">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔹 Hero Section -->
+  <div class="flex flex-col items-center justify-center text-center h-[80vh]">
+    <h1 class="text-4xl font-bold text-gray-800">Welcome 👋</h1>
+    <p class="mt-3 text-gray-600">Tailwind + JavaScript Template</p>
+
+    <button 
+      onclick="showMessage()" 
+      class="mt-5 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
+      Click Me
+    </button>
+  </div>
+
+  <!-- 🔹 JavaScript -->
+  <script>
+    function showMessage() {
+      alert("Button Clicked 🚀");
+    }
+  </script>
+
+</body>
+</html>
